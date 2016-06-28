@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testContact"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="48.360">
+  <properties />
+  
+  
+            <testcase name="test_addContact" time="25.848" classname="android.contact.Contact" />
+                <testcase name="test_addMessage" time="22.512" classname="android.contact.Contact" />
+      
+</testsuite>

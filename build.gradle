@@ -1,0 +1,21 @@
+group 'self'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin:'maven'
+
+sourceCompatibility = 1.5
+
+repositories {
+   // jcenter()
+    mavenCentral()
+
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.4'
+    compile fileTree(dir: 'lib', include: ['*.jar'])
+    compile'io.appium:java-client:3.4.0'
+    compile 'org.uncommons:reportng:1.1.4'
+    //compile'org.testng:testng:6.9.11'
+}
